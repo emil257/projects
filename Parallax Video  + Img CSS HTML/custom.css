@@ -14,7 +14,7 @@ body{
   font-weight: 600;
   letter-spacing: .05rem;
   border: solid 3px white;
-  color: rgb(86, 35, 255);
+  color: rgb(20, 122, 255);
   border-radius: 20px;
 }
 .cta-btn-g{
@@ -55,6 +55,23 @@ body{
   margin-right: 1rem;
 }
 
+
+.mask-g-1{
+  background: -webkit-linear-gradient(45deg,rgba(29,236,197,.7),rgba(91,14,214,.7) 100%);
+}
+.mask-g-2{
+  background: -webkit-linear-gradient(45deg,rgba(91, 14, 214, 0.233),rgba(29,236,197,.7) 100%);
+}
+.mask{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  width: 100%;
+}
+
 .video{
   top: 0;
   position: fixed;
@@ -71,10 +88,10 @@ body{
 }
 
 .img1{
-  background: url('./videos/photo-of-brown-house-near-mountain-1424246\ \(1\).jpg');
+  background: url('./videos/cables.jpg');
 }
 .img2{
-  background: url('./videos/photography-of-trees-covered-with-snow-773594.jpg');
+  background: url('./videos/connection.jpg');
 }
 
 .parallax-block-bg{
