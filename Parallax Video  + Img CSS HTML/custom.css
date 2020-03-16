@@ -1,0 +1,86 @@
+*{
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+body{
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.btn{
+  background-color: rgb(255, 255, 255);
+  padding: .5rem 1.6rem;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: .05rem;
+  border: solid 3px white;
+  color: rgb(86, 35, 255);
+  border-radius: 20px;
+}
+.cta-btn-g{
+  background: none;
+  color: white;
+  margin-left: 1rem;
+}
+.align-c-middle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner{
+  color: white;
+  font-size: 1.2rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 33%;
+  max-width: 500px;
+  min-width: 330px;
+}
+.navbar{
+  font-size: 1.1rem;
+  color: white;
+  padding: 0 10%;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  background: linear-gradient(90deg, #909fff2f 0%, rgba(98, 121, 255, 0.15) 33%);
+  position: relative;
+  z-index: 1;
+  box-shadow: rgba(0, 0, 0, 0.178) 0 3px 16px;
+}
+.navbar span{
+  margin-right: 1rem;
+}
+
+.video{
+  top: 0;
+  position: fixed;
+  min-height: 80vh;
+  min-width: 100vw;
+}
+.breaker{
+  margin-top: 90vh;
+}
+.block{
+  height: 300px;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+}
+
+.img1{
+  background: url('./videos/photo-of-brown-house-near-mountain-1424246\ \(1\).jpg');
+}
+.img2{
+  background: url('./videos/photography-of-trees-covered-with-snow-773594.jpg');
+}
+
+.parallax-block-bg{
+  color: white;
+  height: 500px;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
